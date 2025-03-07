@@ -35,55 +35,41 @@ Ensure you have the following installed on your system:
 
 Install Webpack and Webpack CLI globally:
 
-img/README/webpack-install-code.png
+![Install Webpack globally](images/webpack-install-code.png)
 
 Or install Webpack locally in the project:
 
-\`\`\`bash
-npm install --save-dev webpack webpack-cli
-\`\`\`
+![Install Webpack locally](images/local-install-webpack.png)
 
 ### Steps
 
 1.  Clone the repository:
 
-    \`\`\`bash
-    git clone <repository_url>
-    \`\`\`
+    ![Clone the repository](images/git-clone.png)
 
 2.  Navigate to the project directory:
 
-    \`\`\`bash
-    cd Food-test-module-and-DB-main
-    \`\`\`
+    ![Navigate to the project directory](images/cd.png)
 
 3.  Install dependencies:
 
-    \`\`\`bash
-    npm install
-    \`\`\`
+    ![Install dependencies](images/npm-install.png)
 
 ## Running the Project
 
 ### Start Webpack Development Server
 
-\`\`\`bash
-npx webpack --watch --mode development
-\`\`\`
+![Start Webpack Development Server](images/webpack-npx.png)
 
 This will start Webpack in watch mode to automatically rebuild changes.
 
 ### Start Webpack on a Specific Port (default 8080 or set your own)
 
-\`\`\`bash
-npx webpack serve --port 8080
-\`\`\`
+![Start Webpack on a Specific Port](images/webpack-npx.png)
 
 ### Start JSON-server (default port 4000 or set your own)
 
-\`\`\`bash
-npx json-server --watch db.json --port 4000
-\`\`\`
+![Start JSON-server](images/json-server-watch.png)
 
 This will create a mock API at `http://localhost:4000`.
 
@@ -97,37 +83,19 @@ This will create a mock API at `http://localhost:4000`.
 
 * Get all food items:
 
-    \`\`\`
-    GET http://localhost:4000/foods
-    \`\`\`
+    ![Get all food items](images/GET.png)
 
 * Add a new food item:
 
-    \`\`\`
-    POST http://localhost:4000/foods
-    Content-Type: application/json
-    {
-      "name": "Pizza",
-      "price": 10.99
-    }
-    \`\`\`
+    ![Add a new food item](images/POST.png)
 
 * Update a food item:
 
-    \`\`\`
-    PUT http://localhost:4000/foods/1
-    Content-Type: application/json
-    {
-      "name": "Burger",
-      "price": 8.99
-    }
-    \`\`\`
+    ![Update a food item](images/PUT.png)
 
 * Delete a food item:
 
-    \`\`\`
-    DELETE http://localhost:4000/foods/1
-    \`\`\`
+    ![Delete a food item](images/DELETE.png)
 
 ## Common Issues & Fixes
 
@@ -136,9 +104,7 @@ This will create a mock API at `http://localhost:4000`.
 * Error: `Error: listen EADDRINUSE: address already in use 4000`
 * Solution: run:
 
-    \`\`\`bash
-    npx kill-port 4000
-    \`\`\`
+    ![Kill port](images/kill-port.png)
 
     and restart the server.
 
@@ -146,9 +112,7 @@ This will create a mock API at `http://localhost:4000`.
 
 * Solution: ensure Webpack is installed, and try:
 
-    \`\`\`bash
-    npm run build
-    \`\`\`
+    ![npm run build](images/npm-build.png)
 
 ## Future Improvements 🚀
 
