@@ -35,7 +35,7 @@ Ensure you have the following installed on your system:
 
 Install Webpack and Webpack CLI globally:
 
-![Install Webpack globally](images/webpack-install-code.png)
+![Install Webpack globally](./images/webpack-install-code.png)
 
 Or install Webpack locally in the project:
 
