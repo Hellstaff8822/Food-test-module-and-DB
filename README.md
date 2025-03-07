@@ -69,7 +69,7 @@ This will start Webpack in watch mode to automatically rebuild changes.
 
 ### Start JSON-server (default port 4000 or set your own)
 
-![Start JSON-server](img/README/json-server-watch.png)
+![Start JSON-server](img/README/json-server-wach.png)
 
 This will create a mock API at `http://localhost:4000`.
 
@@ -95,7 +95,7 @@ This will create a mock API at `http://localhost:4000`.
 
 * Delete a food item:
 
-    ![Delete a food item](img/DELETE.png)
+    ![Delete a food item](img/README/DELETE.png)
 
 ## Common Issues & Fixes
 
